@@ -66,7 +66,8 @@ function showTime() {
     let time = `${hours}:${minutes}`;
     let timeEl = document.getElementById('time');
     timeEl.textContent = time;
+    timeEl.style.fontSize = '10rem'
 }
+showTime()
 
 setInterval(showTime, 1000)
-
